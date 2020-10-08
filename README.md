@@ -12,6 +12,10 @@
 
 **Facebook Katran** - это библиотека C ++ и [`BPF`](https://en.wikipedia.org/wiki/Berkeley_Packet_Filter) для создания высокопроизводительной плоскости **Plane** пересылки с балансировкой нагрузки уровня 4. Katran использует инфраструктуру XDP из ядра [`XDP infrastructure`](https://www.iovisor.org/technology/xdp), чтобы обеспечить возможность внутри ядра для быстрой обработки пакетов.
 
+**Mcrouter** является маршрутизатором протокола **memcached** для масштабирования развертываний memcached (http://memcached.org/). Это основной компонент инфраструктуры **кеша в Facebook и Instagram**, где mcrouter обрабатывает почти 5 миллиардов запросов в секунду.
+https://www.katacoda.com/kuber-ru/courses/helm/facebook-memcached
+
+
 ## Katran's key features
 
 1. Blazing fast (especially w/ XDP in driver mode).
