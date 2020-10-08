@@ -10,10 +10,7 @@
   </a>
 </p>
 
-
-Katran is a C++ library and [`BPF`](https://en.wikipedia.org/wiki/Berkeley_Packet_Filter) program to build high-performance
-layer 4 load balancing forwarding plane. Katran leverages [`XDP infrastructure`](https://www.iovisor.org/technology/xdp)
-from the kernel to provide an in-kernel facility for fast packet's processing.
+**Facebook Katran** - это библиотека C ++ и [`BPF`](https://en.wikipedia.org/wiki/Berkeley_Packet_Filter) для создания высокопроизводительной плоскости **Plane** пересылки с балансировкой нагрузки уровня 4. Katran использует инфраструктуру XDP из ядра [`XDP infrastructure`](https://www.iovisor.org/technology/xdp), чтобы обеспечить возможность внутри ядра для быстрой обработки пакетов.
 
 ## Katran's key features
 
